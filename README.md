@@ -5,4 +5,4 @@
 
 ### Preview
 
-![preview](https://raw.githubusercontent.com/rizalrizal/galeri-sederhana/master/previewfinal.jpg "preview")
+![preview](https://raw.githubusercontent.com/rizalrizal/php-datatable-serverside/master/preview.png "preview")

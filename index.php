@@ -52,17 +52,13 @@
            $('.table').DataTable({
               "processing": true,
               "serverSide": true,
-              "ajax":{
-                       "url": "ajax/ajax_kontak.php?action=table_data",
-                       "dataType": "json",
-                       "type": "POST"
-                     },
-              "columns": [
-                  { "data": "no" },
-                  { "data": "nama" },
-                  { "data": "no_hp" },
-                  { "data": "aksi" },
-              ]  
+              "ajax":"ajax/kontak.php",
+              // "columns": [
+              //     { "data": "no" },
+              //     { "data": "nama" },
+              //     { "data": "no_hp" },
+              //     { "data": "aksi" },
+              // ]  
 
           });
         });
